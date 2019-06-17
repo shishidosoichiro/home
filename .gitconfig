@@ -1,0 +1,11 @@
+[user]
+	name = Soichiro Shishido
+	email = shishidosoichiro@gmail.com
+[color]
+	ui = auto
+[alias]
+	lb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+	foresta = !git-foresta
+	lf = !git-foresta --all
+
